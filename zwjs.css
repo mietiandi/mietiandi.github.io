@@ -1,0 +1,14 @@
+h1.promo-block-title {
+    animation-name:fadeInLeftBig ;
+    animation-duration: 3s;
+}
+@keyframes fadeInLeftBig {
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
